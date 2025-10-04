@@ -4,22 +4,18 @@ In this assigment we have worked with multiple git branches and implemented the 
 
 ## Steps to train DecisionTreeRegressor model
 
-Step_1: Clone this public repo by using the git clone command.
-##
-Step_2: Goto the cloned directory
-##
-Step_3: Open the terminal and create a conda env
+Step_1: Clone this public repo by using the git clone command.\
+Step_2: Goto the cloned directory.\
+Step_3: Open the terminal and create a conda env.\
 ```bash
 conda create -y -n myconda-env1 python=3.11
 conda activate myconda-env1
 ```
-##
-Step_4: Install the dependencies
+Step_4: Install the dependencies.\
 ```bash
 pip install -r requirements.txt
 ```
-##
-Step_5: To train DecisionTreeRegressor use the command
+Step_5: To train DecisionTreeRegressor use the command.\
 ```bash
 python train.py
 ```
