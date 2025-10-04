@@ -49,7 +49,7 @@ def build_pipeline(estimator, with_scaler: bool = False) -> Pipeline:
     """
     steps = []
     if with_scaler:
-    steps.append(("scaler", StandardScaler()))
+        steps.append(("scaler", StandardScaler()))
     steps.append(("model", estimator))
     return Pipeline(steps)
 
