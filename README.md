@@ -53,6 +53,6 @@ conda create -y -n myconda-env3 python=3.11
 conda activate myconda-env3
 ```
 ##
-Step_5: Add a test file, commit and Push it.\
+Step_5: Add a test file, commit and Push it.
 ##
-Step_6: Goto Github Actions Workflow Page and see the workflow triggered.\
+Step_6: Goto Github Actions Workflow Page and see the workflow triggered.
