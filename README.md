@@ -26,18 +26,18 @@ python train.py
 Step_1: Clone this public repo by using the git clone command.\
 Step_2: Goto the cloned directory.\
 Step_3: Switch to kernelridge branch.\
-Step_3: Open the terminal and create a conda env
+Step_4: Open the terminal and create a conda env.
 ```bash
 conda create -y -n myconda-env2 python=3.11
 conda activate myconda-env2
 ```
 ##
-Step_4: Install the dependencies
+Step_4: Install the dependencies.
 ```bash
 pip install -r requirements.txt
 ```
 ##
-Step_5: To train KernelRidge use the command
+Step_5: To train KernelRidge use the command.
 ```bash
 python train2.py
 ```
@@ -47,12 +47,12 @@ python train2.py
 Step_1: Clone this public repo by using the git clone command.\
 Step_2: Goto the cloned directory.\
 Step_3: Switch to kernelridge branch.\
-Step_4: Open the terminal and create a conda env
+Step_4: Open the terminal and create a conda env.
 ```bash
 conda create -y -n myconda-env3 python=3.11
 conda activate myconda-env3
 ```
 ##
-Step_5: Add a test file, commit and Push it
+Step_5: Add a test file, commit and Push it.\
 ##
 Step_6: Goto Github Actions Workflow Page and see the workflow triggered.\
